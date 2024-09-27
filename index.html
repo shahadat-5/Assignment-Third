@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Assignment</title>
+    <!-- Font Familly -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!--Dasiy UI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>   
+    <style>
+        .font-manrop {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                house: '#ABEF5F',
+              }
+            }
+          }
+        }
+    </script>
+</head>
+<body class="font-manrop w-1170px m-auto">
+  <div class="w-[1265px] m-auto">
+    <header></header>
+      <nav>
+          <div class="navbar bg-base-100">
+              <div class="navbar-start">
+                <div class="dropdown">
+                  <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                  </div>
+                  <ul
+                    tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    <li><a>Item 1</a></li>
+                    <li>
+                      <a>Parent</a>
+                      <ul class="p-2">
+                        <li><a>Submenu 1</a></li>
+                        <li><a>Submenu 2</a></li>
+                      </ul>
+                    </li>
+                    <li><a>Item 3</a></li>
+                  </ul>
+                </div>
+                <a class="btn btn-ghost text-xl">daisyUI</a>
+              </div>
+              <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                  <li><a><b>Home</b></a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blogs</a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="navbar-end">
+
+                <a class="btn">Button</a>
+              </div>
+            </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Banner -->
+      <section>
+        <div class="text-center pt-16 pb-28">
+          <div class="">
+              <img class="w-600px h-350px m-auto" src="./assets/banner.png">
+          </div>
+          <h3 class="font-5xl font-bold text-[64px] px-14">A barn house of this design has a striking appearance</h3>
+          <p class="text-base font-normal px-40 py-7">The barn house captivates with its blend of rustic charm and 
+              modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light. 
+          </p>
+          <button class="btn relative">View Details</button>
+        </div>
+      </section>
+      <!-- About us -->
+      <section class="bg-[1E1E1E]">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam beatae fugiat non! Magni ipsam nobis a sit libero. Earum necessitatibus, delectus obcaecati cupiditate culpa ex modi accusamus repellendus pariatur quae sed, incidunt, libero laboriosam nesciunt! Vero rem magni ipsam ipsa atque ex quae, velit cum tempora inventore vitae quisquam! Sunt explicabo repellat odit quaerat. Excepturi eaque, quisquam officiis optio, libero minus dolorum, totam eos culpa rerum saepe nostrum asperiores adipisci a? In dolor quas esse alias nulla itaque totam quos mollitia error consectetur praesentium porro nihil iste tenetur, provident quis molestiae ad maxime vel saepe, impedit blanditiis nobis. Laborum, iste!</p>
+      </section>
+
+        
+    </main>      
+  </div>
+  
+
+</body>
+</html>
