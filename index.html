@@ -66,7 +66,10 @@
                 <li><a>Item 3</a></li>
               </ul>
             </div>
-            <a class="btn btn-ghost text-xl">daisyUI</a>
+            <a class="btn btn-ghost text-xl">
+              <span class="bg-lime-300 px-1 py-.5 rounded-full"><i class=""><i class="fa-solid fa-arrow-right"></i></i></span>
+              Rinterio
+            </a>
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
@@ -78,8 +81,16 @@
             </ul>
           </div>
           <div class="navbar-end">
-
-            <a class="btn">Button</a>
+            <span class="bg-zinc-200 px-2 py-1 rounded-full mr-2">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </span>
+            <span class="bg-zinc-200 px-2 py-1 rounded-full mr-2">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <span class="btn btn-ghost bg-zinc-300 text-xl">
+              Book Consult
+              <span class="bg-lime-300 px-1 py-.5 rounded-full"><i class=""><i class="fa-solid fa-arrow-right"></i></i></span>
+            </span>
           </div>
         </div>
       </nav>
@@ -106,7 +117,6 @@
         </button>
       </div>
     </section>
-
     <!-- About us  -->
     <section class="bg-stone-100">
       <div class="relative w-[1265px] m-auto">
@@ -249,23 +259,106 @@
           blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents . 
         </p>
       </div>
-      <!-- Our Latest Portfolio Grid section 1 -->
-      <div class="grid grid-cols-4 p-6 ">
-        <div class="">
-          <img src="./assets/img1.png" alt="">
+      <div class="pt-8">
+        <!-- Our Latest Portfolio Grid section 1 -->
+        <div class="grid grid-cols-4 gap-6">
+          <div class="">
+            <img src="./assets/img1.png" alt="">
+          </div>
+          <div class="col-span-2 ">
+            <h2 class="font-bold text-2xl">Commercial</h2>
+            <p class="pt-5 pb-6 ">The barn house captivates with its blend of rustic charm and modern. 
+              The  barn house captivates with its blend of rustic charm and modern .
+            </p>
+            <button class="btn font-bold bg-slate-100">
+              View Details 
+              <span class="bg-slate-300 p-1 rounded-full"><i class=""><i class="fa-solid fa-arrow-right"></i></i>
+              </span>
+            </button>
+          </div>
+          <div class="">
+            <img src="./assets/img2.png" alt="">
+          </div>
         </div>
-        <div class="">
-          <h2 class="">Commercial</h2>
-          <p class="">The barn house captivates with its blend of rustic charm and modern. 
-            The  barn house captivates with its blend of rustic charm and modern .
-          </p>
-          
-        </div>
-        <div class="">
-          <img src="./assets/img2.png" alt="">
+        <!-- Our Latest Portfolio Grid section 2 -->
+        <div class="grid grid-cols-4 gap-6 pt-6">
+          <div class="">
+            <img src="./assets/img3.png" alt="">
+          </div>
+          <div class="">
+            <img src="./assets/img4.png" alt="">
+          </div>
+          <div class="">
+            <h2 class="font-bold text-2xl">Commercial</h2>
+            <p class="pt-3 pb-4 ">The barn house captivates with its blend of rustic charm and modern. 
+              The  barn house captivates with its blend of rustic charm and modern .
+            </p>
+            <button class="btn font-bold bg-slate-100">
+              View Details 
+              <span class="bg-slate-300 p-1 rounded-full"><i class=""><i class="fa-solid fa-arrow-right"></i></i>
+              </span>
+            </button>  
+          </div>
+          <div class="w-[274px]">
+            <img src="./assets/img5.png" alt="">
+          </div>
         </div>
       </div>
-      <!-- Our Latest Portfolio Grid section 2 -->
+    </section>
+    <!-- Let’s Connect -->
+    <section class="style= background-image: url() py-24">
+      <!-- Let’s Connect tittle -->
+      <div class="w-[1265px] m-auto ">
+        <div class="w-6/12 m-auto">
+          <p class="bg-lime-100 text-base w-[145px] m-auto font-normal mt-2 mb-4 rounded-full px-2 py-1">
+            <i class=""><i class="fa-solid fa-arrow-right"></i></i>
+            <b>Let’s Connect</b>
+          </p>
+          <h2 class="text-[40px] text-center text-black"><b>Our Latest Portfolio</b></h2>
+          <p class="text-base text-center font-normal">The barn house 
+            captivates with its 
+            blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents . 
+          </p>
+        </div>
+
+      </div>
+      <!-- input -->
+      <div class="w-[1265px] m-auto grid grid-cols-2 gap-6 pt-8">
+        <div class="">
+          <input type="text" placeholder="First Name*" class="input input-bordered w-full " />
+        </div>
+        <div class="">
+          <input type="text" placeholder="Last Name*" class="input input-bordered w-full " />
+        </div>
+        <div class="">
+          <input type="text" placeholder="Phone Number*" class="input input-bordered w-full " />
+        </div>
+        <div class="">
+          <input type="text" placeholder="Email Number*" class="input input-bordered w-full " />
+        </div>
+      </div>
+      <!-- Textcare -->
+      <div class="w-[1265px] m-auto pt-6">
+        <textarea class="textarea w-full h-[240px] textarea-bordered" placeholder="Bio"></textarea>
+        <div class="pt-8">
+          <button class="btn w-full  font-bold bg-lime-300">
+            View Details 
+            <span class="bg-lime-500 p-1  rounded-full"><i class=""><i class="fa-solid fa-arrow-right"></i></i>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="bg-neutral-800 text-center">
+      <div class="w-[1265px] m-auto pt-6">
+        <section>
+          <a class="btn text-slate-100 btn-ghost text-xl">
+            <span class="bg-lime-300 text-[32px] px-1 py-[2px] rounded-full"><i class=""><i class="fa-solid fa-arrow-right"></i></i></span>
+            Rinterio
+          </a>
+          <p class="text-slate-300">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        </section>
+      </div>
     </section>
 
 
@@ -274,4 +367,4 @@
   
 
 </body>
-</html>
+</html> 
